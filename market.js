@@ -3,7 +3,7 @@ const app = express();
 const mongoose = require('mongoose');
 
 
-const expenseDB = require('./models/ecom');
+const expenseDB = require('./ecom');
 
 mongoose.connect('mongodb+srv://sugan:suganraj_123@cluster0.f5lwzb3.mongodb.net/Devil?retryWrites=true&w=majority');
 app.use(express.json());
